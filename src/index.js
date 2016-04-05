@@ -15,7 +15,7 @@ function isNumeric(n) {
  * @return {Object} margin values as an object
  */
 
-export default function Utilitydtiparsemarginarray() {
+export default function Utilitydtiparsemarginarray(marginArray) {
   if(isNumeric(marginArray)) {
     marginArray = [+marginArray];
   }
